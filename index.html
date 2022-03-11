@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wordle of Warcraft</title>
+    <link href="wordle.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="wordle.js"></script>
+</head>
+<body>
+    <div class="spacer">
+        <p>
+            <label id="titleBox", class="row" style="font-size: xx-large; color: #FFFFAA; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Wordle of Warcraft</label>
+        </p>
+    </div>
+<div id="rowHolders">
+    <div id="boxHolder" class="row">
+    </div>
+</div>
+<div class="spacer">
+    <p>
+        <span id="messageBox", class="row" style="font-size: x-large; color: #FFFFFF; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Guesses: 0/6</span>
+    </p>
+</div>
+<div id="topRow" class="row">
+        <button class="key" name="q" id="q" data-status="unselected" onclick="addLetter('q')">Q</button>
+        <button class="key" name="w" id="w" data-status="unselected" onclick="addLetter('w')">W</button>
+        <button class="key" name="e" id="e" data-status="unselected" onclick="addLetter('e')">E</button>
+        <button class="key" name="r" id="r" data-status="unselected" onclick="addLetter('r')">R</button>
+        <button class="key" name="t" id="t" data-status="unselected" onclick="addLetter('t')">T</button>
+        <button class="key" name="y" id="y" data-status="unselected" onclick="addLetter('y')">Y</button>
+        <button class="key" name="u" id="u" data-status="unselected" onclick="addLetter('u')">U</button>
+        <button class="key" name="i" id="i" data-status="unselected" onclick="addLetter('i')">I</button>
+        <button class="key" name="o" id="o" data-status="unselected" onclick="addLetter('o')">O</button>
+        <button class="key" name="p" id="p" data-status="unselected" onclick="addLetter('p')">P</button>
+</div>
+<div id="middleRow" class="row">
+        <button class="key" name="a" id="a" data-status="unselected" onclick="addLetter('a')">A</button>
+        <button class="key" name="s" id="s" data-status="unselected" onclick="addLetter('s')">S</button>
+        <button class="key" name="d" id="d" data-status="unselected" onclick="addLetter('d')">D</button>
+        <button class="key" name="f" id="f" data-status="unselected" onclick="addLetter('f')">F</button>
+        <button class="key" name="g" id="g" data-status="unselected" onclick="addLetter('g')">G</button>
+        <button class="key" name="h" id="h" data-status="unselected" onclick="addLetter('h')">H</button>
+        <button class="key" name="j" id="j" data-status="unselected" onclick="addLetter('j')">J</button>
+        <button class="key" name="k" id="k" data-status="unselected" onclick="addLetter('k')">K</button>
+        <button class="key" name="l" id="l" data-status="unselected" onclick="addLetter('l')">L</button>
+    </div>
+    <div id="bottomRow" class="row">
+        <button class="customButton" id="enter" name="enter" onclick="checkWord()">Enter</button>
+        <button class="key" name="z" id="z" data-status="unselected" onclick="addLetter('z')">Z</button>
+        <button class="key" name="x" id="x" data-status="unselected" onclick="addLetter('x')">X</button>
+        <button class="key" name="c" id="c" data-status="unselected" onclick="addLetter('c')">C</button>
+        <button class="key" name="v" id="v" data-status="unselected" onclick="addLetter('v')">V</button>
+        <button class="key" name="b" id="b" data-status="unselected" onclick="addLetter('b')">B</button>
+        <button class="key" name="n" id="n" data-status="unselected" onclick="addLetter('n')">N</button>
+        <button class="key" name="m" id="m" data-status="unselected" onclick="addLetter('m')">M</button>
+        <button class="customButton" id="delete" name="delete" onclick="deleteLetter()">🠔</button>
+</div>
+<div class="spacer"></div>
+<div class="row">
+    <button id="colorBlindButton" class="guessButton" onclick="swapColorBlind()">Contrast: Normal</button>
+    <button class="shareButton", id="shareButton" style="visibility:collapse;" onclick="copyToClipboard()">Share</button>
+    <button id="guessButton" class="guessButton" onclick="makeRandomGuess()">Make a wild guess for me!</button>
+</div>
+<div class="spacer">
+    <p><label class="row" id="yesterday" style="font-size: xx-large; color: #FFFFAA;"></label></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+.box
+{
+    border:2px;
+    border-color: black;
+    border-style: solid;
+    font-weight:bold;
+    font-size: xx-large;
+    color: black;
+    margin:4px;
+    height:47px;
+    width: 47px;
+    background-color: white;
+    justify-content:center;
+    align-items:center;
+}
+
+.tile
+{
+    font-weight:bold;
+    font-size: xx-large;
+    color: black;
+    margin:4px;
+    height:47px;
+    width: 47px;
+    background-color: white;
+    justify-content:center;
+    align-items:center;
+}
+
+.spacer
+{
+    height:40px;
+}
+
+
+.row
+{ /* make element inline flex-container */
+  /* this will make its children flex-items */
+  width: 100%;
+  display: inline-flex; 
+  /* align-items items in column */
+  flex-direction: row;
+  /* center items horizontally */
+  align-items: center;
+  /* center items vertically */
+  justify-content: center;
+}
+
+.key
+{
+    font-weight:normal;
+    font-size: larger;
+    background-color: grey;
+    color: white;
+    border:0;
+    padding:0;
+    margin:4px;
+    height:45px;
+    width: 35px;
+    border-radius:4px;
+    justify-content:center;
+    align-items:center;
+}
+
+.key:hover
+{
+    filter: brightness(0.6);
+}
+
+.customButton
+{
+    font-weight:bold;
+    font-size: larger;
+    background-color: lightgray;
+    border:0;
+    padding:0;
+    margin:4px;
+    height:45px;
+    width: 55px;
+    border-radius:4px;
+    justify-content:center;
+    align-items:center;
+}
+
+.customButton:hover
+{
+    filter: brightness(0.6);
+}
+
+.guessButton
+{
+    font-weight:bold;
+    font-size: larger;
+    background-color: lightgray;
+    border:0;
+    padding:0;
+    margin:4px;
+    height:58px;
+    width: 175px;
+    border-radius:4px;
+    justify-content:center;
+    align-items:center;
+}
+
+.guessButton:hover
+{
+    filter: brightness(0.6);
+}
+
+.shareButton
+{
+    font-weight:bold;
+    font-size: x-large;
+    background-color: green;
+    border:0;
+    padding:0;
+    margin:4px;
+    height:58px;
+    width: 50px;
+    border-radius:4px;
+    justify-content:center;
+    align-items:center;
+}
+
+.shareButton:hover
+{
+    filter: brightness(0.6);
+}
