@@ -153,6 +153,7 @@ rest
 rime
 ring
 roar
+robe
 role
 roll
 root
@@ -289,6 +290,7 @@ dodge
 drain
 draka
 drake
+dress
 drink
 druid
 drust
@@ -766,6 +768,7 @@ sudden
 summon
 sunder
 switch
+symbol
 taelia
 talbuk
 talent
@@ -1060,7 +1063,6 @@ stylist
 sunfire
 sunwell
 suramar
-symbol
 tactics
 talador
 talanji
