@@ -24,6 +24,7 @@ butt
 cake
 cape
 carp
+cast
 clam
 claw
 coal
@@ -60,6 +61,7 @@ form
 frog
 garr
 gaze
+gear
 genn
 gift
 goat
@@ -163,6 +165,7 @@ ruby
 rune
 rush
 sand
+salt
 scar
 seal
 seam
@@ -184,6 +187,7 @@ stab
 star
 stew
 stun
+talk
 tame
 tank
 tear
@@ -341,6 +345,7 @@ golem
 goren
 gouge
 grace
+grass
 grave
 greed
 grell
@@ -794,6 +799,7 @@ thorns
 thrall
 thrash
 threat
+throne
 tinder
 tirion
 tortos
